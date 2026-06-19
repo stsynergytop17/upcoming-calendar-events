@@ -1,0 +1,22 @@
+/**
+ * Upcoming Calendar Events — Admin styles
+ */
+
+.uce-settings-wrap .uce-code-block {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 1em 1.25em;
+	font-size: 0.875em;
+	overflow-x: auto;
+	max-width: 600px;
+}
+
+.uce-settings-wrap .uce-attr-table {
+	max-width: 800px;
+	margin-top: 0.75em;
+}
+
+.uce-settings-wrap .uce-attr-table code {
+	font-size: 0.875em;
+}
