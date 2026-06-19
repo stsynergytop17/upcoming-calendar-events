@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Upcoming Calendar Events
- * Plugin URI:  https://github.com/your-username/upcoming-calendar-events
+ * Plugin URI:  https://github.com/stsynergytop17/upcoming-calendar-events.git
  * Description: Displays upcoming events from Google Calendar via a shortcode or Gutenberg block.
  * Version:     1.0.0
  * Text Domain: upcoming-calendar-events
