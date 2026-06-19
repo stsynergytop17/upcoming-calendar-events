@@ -197,4 +197,8 @@ Cache keys are deterministic `md5` hashes of `(calendar_id + count + days_ahead)
 
 ## AI Disclosure
 
-Approximately **70%** of this code was written with AI assistance (Claude by Anthropic), used as a senior pair-programming partner. The AI generated first drafts of class skeletons, suggested the transient-registry flush approach, and wrote template HTML. I reviewed, corrected, and integrated all output — decisions around the AJAX architecture, the PSR-4 fallback autoloader, nonce/capability patterns, and the output escaping strategy were either mine or were verified against the WordPress Developer Handbook before committing.
+Approximately 70% of this project was developed with AI assistance (ChatGPT and Claude) acting as pair-programming and code-review tools. AI was used to help generate initial class structures, boilerplate code, documentation, and implementation ideas for the Google Calendar integration, AJAX rendering, caching, and plugin architecture.
+
+I manually reviewed, tested, modified, and integrated all generated code. During development, I was responsible for debugging and resolving issues related to the Google Calendar API integration, including investigating why events were not displaying, validating API requests, testing Calendar IDs and API keys, inspecting API responses, and correcting the event query logic. I also verified shortcode behavior, caching functionality, AJAX responses, and front-end rendering within WordPress.
+
+All final implementation decisions, testing, debugging, and code integration were performed by me.
