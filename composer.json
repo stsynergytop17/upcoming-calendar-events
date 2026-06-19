@@ -1,0 +1,18 @@
+{
+  "name": "your-username/upcoming-calendar-events",
+  "description": "WordPress plugin: display upcoming Google Calendar events via shortcode",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "UpcomingCalendarEvents\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

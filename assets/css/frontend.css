@@ -1,0 +1,94 @@
+/**
+ * Upcoming Calendar Events — Front-end styles
+ *
+ * Minimal, semantic defaults. Designed to be overridden easily by themes.
+ */
+
+/* Container */
+.uce-events-wrapper {
+	margin: 1.5em 0;
+}
+
+/* Loading / error states */
+.uce-loading,
+.uce-error,
+.uce-no-events {
+	padding: 0.75em 1em;
+	border-radius: 4px;
+	font-size: 0.95em;
+}
+
+.uce-loading {
+	color: #555;
+	font-style: italic;
+}
+
+.uce-error {
+	background-color: #fef2f2;
+	border: 1px solid #fca5a5;
+	color: #b91c1c;
+}
+
+.uce-no-events {
+	color: #555;
+}
+
+/* Events list — reset default list styling */
+.uce-events-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Individual event card */
+.uce-event {
+	padding: 1em 0;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.uce-event:last-child {
+	border-bottom: none;
+}
+
+/* Title */
+.uce-event__title {
+	font-size: 1.05em;
+	font-weight: 600;
+	margin: 0 0 0.25em;
+}
+
+.uce-event__title a {
+	text-decoration: none;
+}
+
+.uce-event__title a:hover,
+.uce-event__title a:focus {
+	text-decoration: underline;
+}
+
+/* Meta (date/time) */
+.uce-event__meta {
+	font-size: 0.875em;
+	color: #555;
+	margin-bottom: 0.25em;
+}
+
+/* Location */
+.uce-event__location {
+	font-size: 0.875em;
+	color: #6b7280;
+	margin: 0.25em 0 0;
+}
+
+/* Description */
+.uce-event__description {
+	margin-top: 0.5em;
+	font-size: 0.9em;
+	line-height: 1.5;
+	color: #374151;
+}
+
+/* All-day visual indicator */
+.uce-event--all-day .uce-event__meta::before {
+	content: "📅 ";
+}
